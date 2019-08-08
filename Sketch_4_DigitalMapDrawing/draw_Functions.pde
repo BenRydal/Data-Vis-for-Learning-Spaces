@@ -28,3 +28,11 @@ void drawMovement() {
   }
   endShape();
 }
+
+// function to draw text/keys for GUI
+void drawKeys() {
+  textSize(20);
+  fill(0);
+  stroke(0);
+  text("Press any key and use mouse to draw movement, Spacebar resets drawing", spacing, height - spacing/2);
+}

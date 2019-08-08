@@ -10,6 +10,7 @@ UnfoldingMap map; // create your digital map
 AbstractMapProvider provider = new Microsoft.RoadProvider(); // additional map tile provider
 // AbstractMapProvider provider = new StamenMapProvider.TonerBackground(); // map tile provider
 Location locationToStart = new Location(40.730610, -73.935242);  // Location to center map (New York City)
+int spacing = 40; // general spacing variable
 
 void setup() {
   fullScreen(P2D);
@@ -19,8 +20,9 @@ void setup() {
 
 void draw() {
   map.draw();
-  // drawFriskData(); // Uncomment to draw data and movement
-  // drawMovement();
+  drawKeys();
+  drawFriskData(); // Uncomment to draw data and movement
+  drawMovement();
 }
 
 void keyPressed() {
