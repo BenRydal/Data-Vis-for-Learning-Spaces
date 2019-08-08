@@ -4,8 +4,9 @@ int spacing = 40; // General spacing variable for GUI
 
 void setup() {
   fullScreen();
-  loadFloorPlans(); // loads floor plan images see Add_Functions tab
   background(255); // draw white background
+  imageMode(CENTER); // set image mode to center
+  loadFloorPlans(); // loads floor plan images see Add_Functions tab
   drawKeys(); // draw keys for GUI, see Add_Functions tab
 }
 
@@ -20,11 +21,11 @@ void draw() {
 void keyPressed() {
   background(255);
   if (key == ' ') { // if key is spacebar
-    resetFloorPlan();
+    drawFloorPlan();
     drawKeys();
   } else { // if key is any other key, change floor plan, clear drawing space and draw keys
     changeFloorPlan();
-    resetFloorPlan();
+    drawFloorPlan();
     drawKeys();
   }
 }
