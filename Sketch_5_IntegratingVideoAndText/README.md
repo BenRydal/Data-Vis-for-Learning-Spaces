@@ -2,7 +2,7 @@ Sketch 5 will illustrate how to create a simple video player in Processing to wa
 
 BEFORE RUNNING THIS SKETCH:
 1) In Processing, go to Sketch--Import Library--Add Library and add the "Video | GStreamer-based video library for Processing."
-2) Place the video downloaded at the beginning of this tutorial (https://gatech.box.com/s/vxmd84fgjg5qfr4za9b49vebhpyzlhge) into the data folder in this processing sketch
+2) Place the video downloaded at the beginning of this tutorial into the data folder in this processing sketch (https://gatech.box.com/s/vxmd84fgjg5qfr4za9b49vebhpyzlhge)
 
 SPECIFIC LEARNING GOALS:
 1) Further understand program organization through tabs
