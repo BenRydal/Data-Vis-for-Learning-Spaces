@@ -9,7 +9,6 @@ void setup() {
     xPos[i] = width/2;
     yPos[i] = height/2;
   }
-  frameRate(30);  // this is a function that sets the speed of the program
 }
 
 void draw() {
@@ -17,7 +16,10 @@ void draw() {
   drawBrownianMotion();  // a function to draw Brownian motion
 }
 
-// ****** TEMPORARILY IGNORE EVERYTHING BELOW THIS LINE ******
+
+
+
+// ****** IGNORE EVERYTHING BELOW THIS LINE ******
 
 void drawBrownianMotion() {
   // Shift all elements 1 place to the left
